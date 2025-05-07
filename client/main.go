@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 
+	"cliet/edgex-client/mqttclient"
+
 	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos"
-	"github.com/your-org/edgex-mqtt-subscriber/mqttclient"
 )
 
 func main() {
