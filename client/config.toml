@@ -1,0 +1,13 @@
+[broker]
+host = "localhost"
+port = 1883
+protocol = "tcp"
+
+type = "mqtt"
+topic = "edgex/events/#"
+client_id = "EdgeXClient"
+username = ""
+password = ""
+publish = true
+publish_interval = 10
+log_level = "INFO"
